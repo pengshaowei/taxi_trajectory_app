@@ -1,0 +1,7 @@
+项目说明
+1 src/main 存放常用的dao，坐标转换函数等
+2 src/scripts 存放数据处理程序包括
+    a.Taxi数据预处理
+    b.Matching地图匹配
+    c.Clustering聚类分析
+    d.Baidu百度坐标转换
