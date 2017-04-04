@@ -34,7 +34,7 @@ class BaseDAO(object):
         for record in records:
             placeholders = ','.join(['%s'] * len(record))
             columns = ','.join(record.keys())
-            sql = "insert into %s ( %s ) values ( %s )" % (table_name, columns,placeholders)
+            sql = "insert into %s ( %s ) values ( %s )" % (table_name, columns, placeholders)
             try:
                 cursor.execute(sql, record.values())
             except Exception, e:

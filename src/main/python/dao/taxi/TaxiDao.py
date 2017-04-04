@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import MySQLdb
-# import traceback
+import traceback
 from dao.BaseDAO import BaseDAO
 
 
@@ -42,6 +42,21 @@ class TaxiDao(BaseDAO):
             cursor.execute("UPDATE nanjingtaxi SET MatchingLon = '%s',MatchingLat='%s' WHERE ID = '%s' " % (lon, lat, rid))
         except Exception, e:
             print e
+        db.commit()
+        cursor.close()
+        db.close()
+    # 更新匹配后的经纬度
+    def calMatchlonlats(self, records):
+        db = MySQLdb.connect(self.host, self.user, self.password, self.db, charset='utf8')
+        cursor = db.cursor()
+        for r in records:
+            try:
+                cursor.execute(
+                    "UPDATE nanjingtaxi SET MatchingLon = '%s',MatchingLat='%s' WHERE ID = '%s' " % (r[1], r[2], r[0]))
+            except Exception, e:
+                traceback.print_exc()
+                print e
+                break
         db.commit()
         cursor.close()
         db.close()

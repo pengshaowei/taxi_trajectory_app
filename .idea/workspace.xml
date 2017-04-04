@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="074faabf-774a-4eda-97f8-76864a8deef1" name="Default" comment="first to github" />
+    <list default="true" id="074faabf-774a-4eda-97f8-76864a8deef1" name="Default" comment="first to github">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scripts/Matching/hotrate.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/dao/BaseDAO.py" afterPath="$PROJECT_DIR$/src/main/python/dao/BaseDAO.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/dao/taxi/TaxiDao.py" afterPath="$PROJECT_DIR$/src/main/python/dao/taxi/TaxiDao.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scripts/Matching/MapMatching.py" afterPath="$PROJECT_DIR$/src/main/scripts/Matching/MapMatching.py" />
+    </list>
     <ignored path="taxi_trajectory_app.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,7 +25,7 @@
     <SUITE FILE_PATH="coverage/taxi_trajectory_app$predelete.coverage" NAME="predelete Coverage Results" MODIFIED="1489236455449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/scripts/Taxi" />
     <SUITE FILE_PATH="coverage/taxi_trajectory_app$TaxiChecker.coverage" NAME="TaxiChecker Coverage Results" MODIFIED="1491058261713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/scripts/Taxi" />
     <SUITE FILE_PATH="coverage/taxi_trajectory_app$SpitalClustering.coverage" NAME="SpitalClustering Coverage Results" MODIFIED="1489679761459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/scripts/Clustering" />
-    <SUITE FILE_PATH="coverage/taxi_trajectory_app$MapMatching.coverage" NAME="MapMatching Coverage Results" MODIFIED="1491210850311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/scripts/Matching" />
+    <SUITE FILE_PATH="coverage/taxi_trajectory_app$MapMatching.coverage" NAME="MapMatching Coverage Results" MODIFIED="1491297854274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/scripts/Matching" />
     <SUITE FILE_PATH="coverage/taxi_trajectory_app$ExporTripRecord.coverage" NAME="ExporTripRecord Coverage Results" MODIFIED="1489663729755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/scripts/Taxi" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -42,10 +48,10 @@
       <file leaf-file-name="MapMatching.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scripts/Matching/MapMatching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
               <folding>
-                <element signature="e#87#123#0" expanded="true" />
+                <element signature="e#104#140#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,12 +60,12 @@
       <file leaf-file-name="BaseDAO.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/python/dao/BaseDAO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="38" column="26" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="42" selection-end-column="21" />
               <folding>
-                <marker date="1489580678447" expanded="true" signature="556:590" ph="insert into missing_value... " />
-                <marker date="1489580678447" expanded="true" signature="1158:1193" ph="insert into missing_value... " />
-                <marker date="1489580678447" expanded="true" signature="1754:1772" ph="select missi... missing_value" />
+                <marker date="1491294067584" expanded="true" signature="556:590" ph="insert into missing_value... " />
+                <marker date="1491294067584" expanded="true" signature="1158:1193" ph="insert into missing_value... " />
+                <marker date="1491294067584" expanded="true" signature="1755:1773" ph="select missi... missing_value" />
               </folding>
             </state>
           </provider>
@@ -68,16 +74,28 @@
       <file leaf-file-name="TaxiDao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/python/dao/taxi/TaxiDao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="41" column="81" lean-forward="false" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="81" />
+            <state relative-caret-position="31">
+              <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="23" />
               <folding>
-                <marker date="1491152430663" expanded="true" signature="438:507" ph="UPDATE nanji... " />
-                <marker date="1491152430663" expanded="true" signature="858:920" ph="UPDATE nanji... " />
-                <marker date="1491152430663" expanded="true" signature="1276:1350" ph="UPDATE nanji... " />
-                <marker date="1491152430663" expanded="true" signature="1722:1766" ph="delete from " />
-                <marker date="1491152430663" expanded="true" signature="2205:2242" ph="delete from " />
-                <marker date="1491152430663" expanded="true" signature="2610:2666" ph="select DISTI... nanjingtaxi" />
+                <element signature="e#24#38#0" expanded="true" />
+                <marker date="1491294570015" expanded="true" signature="436:505" ph="UPDATE nanji... " />
+                <marker date="1491294570015" expanded="true" signature="856:918" ph="UPDATE nanji... " />
+                <marker date="1491294570015" expanded="true" signature="1274:1348" ph="UPDATE nanji... " />
+                <marker date="1491294570015" expanded="true" signature="1753:1827" ph="UPDATE nanji... " />
+                <marker date="1491294570015" expanded="true" signature="2270:2314" ph="delete from " />
+                <marker date="1491294570015" expanded="true" signature="2753:2790" ph="delete from " />
+                <marker date="1491294570015" expanded="true" signature="3158:3214" ph="select DISTI... nanjingtaxi" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hotrate.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scripts/Matching/hotrate.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,7 +117,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scripts/Taxi/nanjing.json" />
-        <option value="$PROJECT_DIR$/src/main/python/dao/BaseDAO.py" />
         <option value="$PROJECT_DIR$/src/main/scripts/Kongshi/kong.py" />
         <option value="$PROJECT_DIR$/src/main/scripts/Taxi/ExporTripRecord.py" />
         <option value="$PROJECT_DIR$/src/main/scripts/Taxi/ExportTaxiData.py" />
@@ -109,10 +126,11 @@
         <option value="$PROJECT_DIR$/src/unittest/wgs84pointtest.py" />
         <option value="$PROJECT_DIR$/src/main/python/service/CoordinateTransferService.py" />
         <option value="$PROJECT_DIR$/src/main/scripts/Baidu/Transfer.py" />
-        <option value="$PROJECT_DIR$/src/main/python/dao/taxi/TaxiDao.py" />
         <option value="$PROJECT_DIR$/src/main/scripts/Baidu/ExportTaxiData.py" />
         <option value="$PROJECT_DIR$/docs/readme" />
         <option value="$PROJECT_DIR$/src/main/scripts/Clustering/SpitalClustering.py" />
+        <option value="$PROJECT_DIR$/src/main/python/dao/BaseDAO.py" />
+        <option value="$PROJECT_DIR$/src/main/python/dao/taxi/TaxiDao.py" />
         <option value="$PROJECT_DIR$/src/main/scripts/Matching/MapMatching.py" />
       </list>
     </option>
@@ -144,7 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,13 +283,117 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kongshi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_trajectory_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_trajectory_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_trajectory_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_trajectory_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_trajectory_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_trajectory_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_trajectory_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_trajectory_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -651,19 +773,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2193646" sideWeight="0.4811644" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22239032" sideWeight="0.4811644" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328152" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30874786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25385934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23156089" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3464837" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.49315068" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41509435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18154311" sideWeight="0.5188356" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2539432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -696,6 +819,11 @@
           <line>3</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/scripts/Matching/MapMatching.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -707,7 +835,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="91" />
+      <option name="time" value="93" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -716,13 +844,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/python/dao/BaseDAO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="49" column="49" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scripts/Taxi/TaxiChecker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -944,13 +1065,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scripts/Taxi/error.json" />
     <entry file="file://$PROJECT_DIR$/src/main/scripts/Taxi/nanjing.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/Kongshi/kong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scripts/Taxi/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1036,43 +1150,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/python/dao/taxi/TaxiDao.py">
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/Kongshi/kong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="41" column="81" lean-forward="false" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="81" />
-          <folding>
-            <marker date="1491152430663" expanded="true" signature="438:507" ph="UPDATE nanji... " />
-            <marker date="1491152430663" expanded="true" signature="858:920" ph="UPDATE nanji... " />
-            <marker date="1491152430663" expanded="true" signature="1276:1350" ph="UPDATE nanji... " />
-            <marker date="1491152430663" expanded="true" signature="1722:1766" ph="delete from " />
-            <marker date="1491152430663" expanded="true" signature="2205:2242" ph="delete from " />
-            <marker date="1491152430663" expanded="true" signature="2610:2666" ph="select DISTI... nanjingtaxi" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/python/dao/BaseDAO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="38" column="26" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="42" selection-end-column="21" />
           <folding>
-            <marker date="1489580678447" expanded="true" signature="556:590" ph="insert into missing_value... " />
-            <marker date="1489580678447" expanded="true" signature="1158:1193" ph="insert into missing_value... " />
-            <marker date="1489580678447" expanded="true" signature="1754:1772" ph="select missi... missing_value" />
+            <marker date="1491294067584" expanded="true" signature="556:590" ph="insert into missing_value... " />
+            <marker date="1491294067584" expanded="true" signature="1158:1193" ph="insert into missing_value... " />
+            <marker date="1491294067584" expanded="true" signature="1755:1773" ph="select missi... missing_value" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/dao/taxi/TaxiDao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1491294570015" expanded="true" signature="436:505" ph="UPDATE nanji... " />
+            <marker date="1491294570015" expanded="true" signature="856:918" ph="UPDATE nanji... " />
+            <marker date="1491294570015" expanded="true" signature="1274:1348" ph="UPDATE nanji... " />
+            <marker date="1491294570015" expanded="true" signature="1753:1827" ph="UPDATE nanji... " />
+            <marker date="1491294570015" expanded="true" signature="2270:2314" ph="delete from " />
+            <marker date="1491294570015" expanded="true" signature="2753:2790" ph="delete from " />
+            <marker date="1491294570015" expanded="true" signature="3158:3214" ph="select DISTI... nanjingtaxi" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scripts/Matching/hotrate.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scripts/Matching/MapMatching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="1037">
+          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
           <folding>
-            <element signature="e#87#123#0" expanded="true" />
+            <element signature="e#104#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
